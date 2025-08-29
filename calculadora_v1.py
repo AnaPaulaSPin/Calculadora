@@ -2,7 +2,7 @@ import os
 
 while 1:
     print("\033[95m=" * 120)
-    print('\033[96mCalculadora py\033[0m'.center(121))
+    print('\033[96mCalculadora Py\033[0m'.center(121))
     print("\033[95m=" * 120)
     print('\n')
 
@@ -94,16 +94,17 @@ while 1:
     
     elif r == '2':
      os.system('cls')
-     print("=" * 20,'Manual de Uso', "=" * 20)
-     print('Bem-vindo à calculadora!'.center(50))
-     print('Regras para digitar corretamente as operações:'.center(50))
-     print('1. Digite apenas números de 0 a 9 como operandos.'.center(50))
-     print('2. Escolha apenas uma operação por vez:'.center(50))
-     print('   Soma (+), Subtração (-), Multiplicação (*), Divisão (/), Resto de Divisão (%), Potência (^).'.center(50))
-     print('3. Digite no formato: Operando1OperaçãoOperando2 (exemplo: 3+4).')
-     print('4. Não use espaços ou caracteres especiais fora dos listados.')
-     print('5. Para sair da calculadora, digite -1.'.center(50))
-     print("=" * 50)
+     print('\033[95m')
+     print('\033[94m   Manual de Uso  \033[95m'.center(130,'='))
+     print('\033[92mBem-vindo(a) à Calculadora Py!'.center(130))
+     print('\033[97mRegras para digitar corretamente as operações:'.center(130))
+     print('\033[93m1. Digite apenas números inteiros de 0 a 9 como operandos.'.center(130))
+     print('\033[93m2. Escolha apenas uma operação por vez:'.center(130))
+     print('\033[93m   Soma (+), Subtração (-), Multiplicação (*), Divisão (/), Resto de Divisão (%), Potência (^).'.center(130))
+     print('\033[93m3. Digite no formato: Operando1OperaçãoOperando2 (exemplo: 3+4).'.center(130))
+     print('\033[93m4. Não use espaços ou caracteres especiais fora dos listados.'.center(130))
+     print('\033[93m5. Para sair da calculadora, digite -1.\033[0m'.center(130))
+     print("\033[95m=\033[0m" * 120)
      os.system("pause")
   
     
