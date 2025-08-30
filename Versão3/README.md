@@ -42,4 +42,4 @@ Histórico salvo: "1000 * 250 = 250000"
 * Suporta **números grandes** e **decimais**
 
 ### 🔗 Demonstração
-[Vídeo mostrando a versão 3 da calculadora]()
+[Vídeo mostrando a versão 3 da calculadora](https://youtu.be/xUg2lOhxbPs)
