@@ -71,7 +71,10 @@ while 1:
               print("\033[92mResposta: {}\033[0m".format(op1 - op2).center(20))
 
           elif sinal == '/':
-              print("\033[92mResposta:{}\033[0m".format(op1 / op2).center(20))
+              if op2 == 0:
+                  print('\033[91mDivisão por zero não é permitida!\033[0m'.center(120))
+              else:
+               print("\033[92mResposta:{}\033[0m".format(op1 / op2).center(20))
 
           elif sinal == '*':
               print("\033[92mResposta:{}\033[0m".format(op1 * op2).center(20))

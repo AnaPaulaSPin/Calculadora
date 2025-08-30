@@ -30,6 +30,7 @@ Criar uma calculadora bem básica em Python para **fixar fundamentos** de progra
   * Exemplos inválidos: `12+3`, `a+1`, `2++3`, `2 + 3`
 * Só funciona com números inteiros de **0 a 9**
 * Não aceita valores fora desse limite
+* Não permite divisão por zero
 
 ### 💡 Exemplos de uso
 
