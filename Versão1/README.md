@@ -1,4 +1,4 @@
-## 📌 Projeto: Calculadora Simples (Versão 1)
+## 📌 Projeto: Calculadora (Versão 1)
 
 ### 🎯 Objetivo
 
